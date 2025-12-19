@@ -1,0 +1,53 @@
+:root {
+    --deep-black: #0A0C0E;
+    --midori-black: #14181A;
+    --hard-grey: #787B7C;
+    --medium-grey: #E4E4E4;
+    --soft-grey: #F7F7F7;
+    --white: #FFFFFF;
+}
+
+body {
+    background-image: url(/img/certhon_build2.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Helvetica, monospace;
+}
+
+.c-logo {
+    height: 70px
+}   
+
+nav {
+    background-color: var(--midori-black)
+}
+
+.custom-form {
+    background-color: var(--white);
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 150px;
+    box-shadow: 0px 0px 30px 10px var(--midori-black);
+}
+
+.input-box {
+    background-color: var(--soft-grey) !important;
+}
+
+.custom-btn {
+    background-color: var(--midori-black) !important;
+    color: white !important;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.form-list {
+    margin: 30px;
+    padding-top: 35px;
+}
+
+.custom-btn:hover {
+    background-color: var(--hard-grey) !important;
+    transition: 0.3s;
+}
